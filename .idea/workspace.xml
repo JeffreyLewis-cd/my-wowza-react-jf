@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ccbb902-b1bc-4305-b55f-630cb427f1a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#3031#3550#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Modal</find>
+      <find>handleSelectChange</find>
+      <find>handleSubmit</find>
+      <find>confirmAddTarget</find>
+      <find>stop-btn</find>
+      <find>stop-and-delete</find>
+      <find>delete</find>
+      <find>deleteOneTarget</find>
+      <find>getStreamList</find>
+      <find>incomingStrms</find>
+      <find>allCreatedStrms</find>
+      <find>updateOneTarget</find>
+      <find>console.log</find>
+      <find>wowza_page_sider</find>
+      <find>删除应用</find>
+      <find>h5_player-iframe</find>
+      <find>430</find>
+      <find>incoming_list</find>
+      <find>incoming_stream_items</find>
+      <find>controlH5Width</find>
+      <find>player_in_center</find>
+      <find>forwardToStreamTarget</find>
+      <find>put</find>
+      <find>advancedSettings</find>
+      <find>转发流文件列表</find>
+      <find>tablePager</find>
+      <find>restartApp</find>
+      <find>转发流文件</find>
+      <find>Tooltip</find>
+      <find>182.151.53.209</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\view\main\live</dir>
+      <dir>D:\sobey\projects\WowzaStreamingEngine\my-wowza\src</dir>
+      <dir>D:\sobey\projects\WowzaStreamingEngine\my-wowza</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/view/components/footer/Header.js" />
+        <option value="$PROJECT_DIR$/src/view/components/footer/Footer.js" />
+        <option value="$PROJECT_DIR$/src/view/components/header/Header.js" />
+        <option value="$PROJECT_DIR$/src/view/main/IncomingStream.js" />
+        <option value="$PROJECT_DIR$/src/view/components/header/header.js" />
+        <option value="$PROJECT_DIR$/src/view/components/footer/footer.js" />
+        <option value="$PROJECT_DIR$/src/view/main/style/incomingStream.scss" />
+        <option value="$PROJECT_DIR$/src/view/main/incomingStream.js" />
+        <option value="$PROJECT_DIR$/src/view/main/components/live/pushStream.js" />
+        <option value="$PROJECT_DIR$/src/view/components/sider/sider.js" />
+        <option value="$PROJECT_DIR$/src/view/main/mainPage.js" />
+        <option value="$PROJECT_DIR$/src/view/main/components/live/incomingStream.js" />
+        <option value="$PROJECT_DIR$/src/lib/wowza_js/wowzaplayer.min.js" />
+        <option value="$PROJECT_DIR$/public/wowza_js/wowzaplayer_index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/src/view/main/style/main.scss" />
+        <option value="$PROJECT_DIR$/src/view/main/live/pushStream.js" />
+        <option value="$PROJECT_DIR$/src/view/main/application/style/appManageStyle.scss" />
+        <option value="$PROJECT_DIR$/src/index.css" />
+        <option value="$PROJECT_DIR$/src/view/components/header/pageHeader.js" />
+        <option value="$PROJECT_DIR$/src/view/main/application/reduxTest.js" />
+        <option value="$PROJECT_DIR$/src/redux/reducer.js" />
+        <option value="$PROJECT_DIR$/src/view/main/application/appManage.js" />
+        <option value="$PROJECT_DIR$/public/wowza_player/wowza_player_index.html" />
+        <option value="$PROJECT_DIR$/src/view/main/live/streamCard.js" />
+        <option value="$PROJECT_DIR$/src/lib/pubFunc.js" />
+        <option value="$PROJECT_DIR$/src/view/components/sider/pageSider.scss" />
+        <option value="$PROJECT_DIR$/src/view/main/live/addressAddRefresh.js" />
+        <option value="$PROJECT_DIR$/src/view/main/live/recordStream.js" />
+        <option value="$PROJECT_DIR$/src/view/main/live/style/liveStyle.scss" />
+        <option value="$PROJECT_DIR$/src/view/main/live/incomingStream.js" />
+        <option value="$PROJECT_DIR$/src/http/basicRequest.js" />
+        <option value="$PROJECT_DIR$/src/http/baseMethods.js" />
+        <option value="$PROJECT_DIR$/build/h5_player/h5_player.html" />
+        <option value="$PROJECT_DIR$/public/h5_player/h5_player.html" />
+        <option value="$PROJECT_DIR$/src/view/main/live/stopAndDelete.js" />
+        <option value="$PROJECT_DIR$/src/view/main/live/h5Player.js" />
+        <option value="$PROJECT_DIR$/src/router/asyn.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/view/components/sider/pageSider.js" />
+        <option value="$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="myWebSocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\view\main\live" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\public" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\lib" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\view\main" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\view\components\header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\view\main\live" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\view\main\application" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\view\main\application\style" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\http" />
+      <recent name="D:\sobey\projects\WowzaStreamingEngine\my-wowza\src\lib\wowza_js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ccbb902-b1bc-4305-b55f-630cb427f1a3" name="Default Changelist" comment="" />
+      <created>1558403680104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558403680104</updated>
+      <workItem from="1558403681284" duration="1438000" />
+      <workItem from="1558408461975" duration="5480000" />
+      <workItem from="1558422858773" duration="4809000" />
+      <workItem from="1558429927711" duration="5039000" />
+      <workItem from="1558488040351" duration="9532000" />
+      <workItem from="1558505237473" duration="48000" />
+      <workItem from="1558505336423" duration="172000" />
+      <workItem from="1559027591683" duration="2015000" />
+      <workItem from="1559033359969" duration="4389000" />
+      <workItem from="1559091180432" duration="3005000" />
+      <workItem from="1559109636642" duration="601000" />
+      <workItem from="1559111790242" duration="2182000" />
+      <workItem from="1559178608112" duration="6057000" />
+      <workItem from="1559196217835" duration="4034000" />
+      <workItem from="1559213861783" duration="2400000" />
+      <workItem from="1559267426917" duration="42000" />
+      <workItem from="1559528642733" duration="967000" />
+      <workItem from="1559529806996" duration="2941000" />
+      <workItem from="1559542128815" duration="2511000" />
+      <workItem from="1559619922163" duration="619000" />
+      <workItem from="1559638870903" duration="3038000" />
+      <workItem from="1559697458614" duration="25052000" />
+      <workItem from="1559783956759" duration="20519000" />
+      <workItem from="1560127431493" duration="18631000" />
+      <workItem from="1560216512883" duration="1198000" />
+      <workItem from="1560232585344" duration="16197000" />
+      <workItem from="1560302549324" duration="2811000" />
+      <workItem from="1560323043436" duration="599000" />
+      <workItem from="1560335033593" duration="599000" />
+      <workItem from="1560388685824" duration="7309000" />
+      <workItem from="1560478573539" duration="12257000" />
+      <workItem from="1560506779601" duration="2411000" />
+      <workItem from="1560732625838" duration="1270000" />
+      <workItem from="1560743601319" duration="14012000" />
+      <workItem from="1560822766398" duration="8595000" />
+      <workItem from="1560847443388" duration="1056000" />
+      <workItem from="1560849291646" duration="1239000" />
+      <workItem from="1560906071829" duration="26460000" />
+      <workItem from="1560996063601" duration="54000" />
+      <workItem from="1560998169892" duration="8900000" />
+      <workItem from="1561098284826" duration="266000" />
+      <workItem from="1561116883149" duration="1285000" />
+      <workItem from="1561371223833" duration="85000" />
+      <workItem from="1561699771240" duration="18000" />
+      <workItem from="1562124840275" duration="2467000" />
+      <workItem from="1562151466830" duration="223000" />
+      <workItem from="1562204735257" duration="3320000" />
+      <workItem from="1562288688096" duration="771000" />
+      <workItem from="1562296935027" duration="6604000" />
+      <workItem from="1562323599385" duration="599000" />
+      <workItem from="1562547272967" duration="3289000" />
+      <workItem from="1562659599688" duration="1174000" />
+      <workItem from="1562816344239" duration="322000" />
+      <workItem from="1562829173014" duration="2442000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="253353000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17031147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25457317" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/components/footer/footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/style/incomingStream.scss" />
+    <entry file="file://$PROJECT_DIR$/src/view/main/mainPage.js" />
+    <entry file="file://$PROJECT_DIR$/src/lib/wowza_js/wowzaplayer.min.js" />
+    <entry file="file://$PROJECT_DIR$/build/service-worker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/application/style/appManageStyle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/components/header/pageHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/wowza_player/wowza_player_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/components/sider/pageSider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/addressAddRefresh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!block;n#confirmAddStream#0;n#AddressAddRefresh#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/wowza_player/wowza_player_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/style/liveStyle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="240" column="21" selection-start-line="240" selection-start-column="21" selection-end-line="240" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/recordStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="96" column="98" selection-start-line="96" selection-start-column="98" selection-end-line="96" selection-end-column="98" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#RecordStream#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/incomingStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="311" column="74" selection-start-line="311" selection-start-column="74" selection-end-line="311" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!block;n#switchDiffStream#0;n#IncomingStream#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/pushStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/streamCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-653">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/basicRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="407" column="43" selection-start-line="407" selection-start-column="34" selection-end-line="407" selection-end-column="43" />
+          <folding>
+            <element signature="e#394#501#0" />
+            <element signature="e#580#975#0" />
+            <element signature="e#1030#1339#0" />
+            <element signature="e#1391#5203#0" />
+            <element signature="e#1494#4424#0" />
+            <element signature="e#3444#4416#0" />
+            <element signature="e#4445#4774#0" />
+            <element signature="e#5258#5778#0" />
+            <element signature="e#5836#6246#0" />
+            <element signature="e#6307#6676#0" />
+            <element signature="e#6735#7229#0" />
+            <element signature="e#7295#7785#0" />
+            <element signature="e#7850#8301#0" />
+            <element signature="e#8365#9786#0" />
+            <element signature="e#9840#10232#0" />
+            <element signature="e#10288#10655#0" />
+            <element signature="e#10724#11101#0" />
+            <element signature="e#11164#11658#0" />
+            <element signature="e#11629#12028#0" />
+            <element signature="e#11180#11580#0" />
+            <element signature="e#12515#12947#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/h5_player/h5_player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/h5_player/h5_player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/http/baseMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/stopAndDelete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="368" column="65" selection-start-line="368" selection-start-column="65" selection-end-line="368" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/live/h5Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pubFunc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/application/appManage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="150" column="68" lean-forward="true" selection-start-line="150" selection-start-column="68" selection-end-line="150" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#3969#5480#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/application/reduxTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/AsyncComponent.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/asyn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/redux/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/components/sider/pageSider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="166" column="35" lean-forward="true" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!block;n#requestAllApps#0;n#pageSider#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="54" column="57" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48704">
+          <caret line="16385" column="25" lean-forward="true" selection-start-line="16385" selection-start-column="25" selection-end-line="16385" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#3031#3550#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

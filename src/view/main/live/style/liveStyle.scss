@@ -1,0 +1,245 @@
+
+.main-page-body {
+  min-height: 600px;
+  width: 100%;
+  height: 100vh;
+  float: right;
+  padding: 20px 0;
+  background-color: #F2F4F5;
+  min-width: 800px;
+  overflow: auto;
+  position: relative;
+  padding-left: 5px;
+
+  .incoming_list {
+    width: 100%;
+    padding-top: 100px;
+
+
+    .app_address {
+      position: fixed;
+      top: 0;
+      z-index: 2;
+      padding: 0;
+      margin: 0;
+      background-color: #F2F4F5;
+      height: 110px;
+      width: calc(100% - 80px);
+      -webkit-width: calc(100% - 80px);
+      -moz-width: calc(100% - 80px);
+      //border: 1px solid blue;
+
+      .incoming_src {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+
+        .input_btn {
+          width: 100%;
+          margin-right: 20px;
+        }
+
+      }
+
+      .title_refresh {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+        border-bottom: 1px solid #dddee1;
+        position: absolute;
+        top: 50px;
+        width: 90%;
+        //border: 1px solid red;
+
+        .refresh {
+          margin: 0 20px;
+        }
+      }
+    }
+
+
+    .incoming_stream_items {
+      position: absolute;
+      width: 98%;
+      border-bottom: 1px dashed #dddee1;
+      min-height: 600px;
+      padding-bottom: 100px;
+      margin-bottom: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+
+      .empty_element {
+        margin-top: 5%;
+        width: 100%;
+      }
+
+      .stream_card {
+        width: calc(33% - 10px);
+        -webkit-width: calc(50% - 10px);
+        -moz-width: calc(50% - 10px);
+        height: 300px;
+        margin: 5px;
+
+        .play_test {
+          cursor: pointer;
+          color: #2d8cf0;
+        }
+
+        .app_info {
+          .app_info_title {
+            font-size: 12px !important;
+          }
+
+          .app_info_value {
+            font-size: 12px !important;
+          }
+
+          .click_to_play {
+            color: #2d8cf0;
+            cursor: pointer;
+          }
+        }
+
+        .stop-and-delete {
+          .small-btn {
+            margin: 0 5px;
+          }
+        }
+      }
+
+      .active_stream_card {
+        box-shadow: 3px 5px 10px #80848f;
+        //border: 2px solid #2d8cf0;
+        .checked {
+          height: 20px;
+          line-height: 20px;
+          width: 20px;
+          text-align: center;
+          border-radius: 10px;
+          position: absolute;
+          background-color: #52c41a;
+          top: -10px;
+          right: -10px;
+        }
+      }
+
+      .touch_bottom {
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        height: 20px;
+        width: 100%;
+      }
+    }
+  }
+
+  .right_player {
+    height: 100%;
+    min-height: 700px;
+    width: 25%;
+    min-width: 450px;
+    position: fixed;
+    top: 10px;
+    right: 1%;
+    //border:1px solid blue;
+
+
+    .record_operation {
+      height: 60px;
+      line-height: 60px;
+      width: 90%;
+      top: 50px;
+      z-index: 1;
+      text-align: right;
+
+      .record_oper_ele {
+
+
+        .record_btn {
+          margin: 0 10px;
+        }
+      }
+    }
+
+    .h5_player_box {
+      height: 75%;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .player-iframe {
+        height: 530px;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        margin-top: 30px;
+        z-index: 2;
+      }
+
+    }
+
+    .wowza_play_view {
+      height: 75%;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+
+      .player-iframe {
+        height: 530px;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        margin-top: 30px;
+        z-index: 2;
+      }
+
+
+      .player-iframe-empty {
+        height: 300px;
+        width: 86%;
+        margin: 0 auto;
+        border: 1px solid #000000;
+        background: #000000;
+        position: absolute;
+        margin-top: 74px;
+        z-index: 0;
+      }
+    }
+
+
+  }
+
+
+  .player_in_center {
+    position: fixed;
+    border: 1px solid #dddee1;
+    width: 800px;
+    height: 500px;
+    left: calc(50% - 400px);
+    z-index: 3;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+    .close_player {
+      margin: 20px;
+      float: right;
+      font-size: 22px;
+      cursor: pointer;
+    }
+  }
+
+}
