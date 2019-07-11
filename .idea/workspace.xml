@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ccbb902-b1bc-4305-b55f-630cb427f1a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js" afterDir="false" />
-    </list>
+    <list default="true" id="3ccbb902-b1bc-4305-b55f-630cb427f1a3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/view/main/myWebSocket/myWebSocket.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -23,7 +20,6 @@
               <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
-                <element signature="e#3031#3550#0" />
               </folding>
             </state>
           </provider>
@@ -131,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -147,34 +143,25 @@
         <subPane>
           <expand>
             <path>
-              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="my-wowza-react-jf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza-react-jf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="my-wowza-react-jf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza-react-jf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="my-wowza-react-jf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza-react-jf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-wowza" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-wowza" type="462c0819:PsiDirectoryNode" />
+              <item name="my-wowza-react-jf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-wowza-react-jf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="myWebSocket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -287,15 +274,15 @@
       <workItem from="1562659599688" duration="1174000" />
       <workItem from="1562816344239" duration="322000" />
       <workItem from="1562829173014" duration="2442000" />
+      <workItem from="1562833481930" duration="104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253353000" />
+    <option name="totallyTimeSpent" value="253457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17031147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
