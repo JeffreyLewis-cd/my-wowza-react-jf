@@ -1,4 +1,6 @@
 import baseMethods from "./baseMethods";
+import md5 from "md5";
+
 
 let basicRequest = {};
 
@@ -431,6 +433,24 @@ basicRequest.deleteAppStreamTarget = (streamParam) => {
 
     return new Promise((resolve, reject) => {
         baseMethods.delete(deleteURL, '', headers).then((res) => {
+            resolve(res);
+        }).catch((err) => {
+            reject(err);
+        })
+    })
+};
+
+/*登录四川经济统计平台*/
+basicRequest.sichuan_login = () => {
+    let param = {
+        "name": "admin",
+        "password": md5('admin'),
+    };
+
+    let addURL = "http://localhost:8080/SiChuanMarket_SSM/person/login";
+
+    return new Promise((resolve, reject) => {
+        baseMethods.post(addURL, param, headers).then((res) => {
             resolve(res);
         }).catch((err) => {
             reject(err);

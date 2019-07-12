@@ -3,12 +3,15 @@ import './myWebSocket.scss';
 import {Button, message} from 'antd';
 import SockJS from 'sockjs-client';
 import Stomp from 'stompjs';
+import basicRequestAPI from '../../../http/basicRequest';
+import pubFuncLib from '../../../lib/pubFunc';
 
-var serverHost = window.location.host.split(':')[0];
+let serverHost = window.location.host.split(':')[0];
 
 console.log(serverHost);
-var ws01 = null;
-var ws02 = null;
+let ws01 = null;
+let ws02 = null;
+let stompClient = null;
 
 class MyWebSocket extends PureComponent {
     constructor(props) {
@@ -18,6 +21,32 @@ class MyWebSocket extends PureComponent {
             ws02Show: true,
         }
     }
+
+    componentDidMount() {
+        this.getSichuanToken();//获取四川经济统计平台token
+    }
+
+    /*获取四川经济统计平台token*/
+    getSichuanToken = () => {
+        basicRequestAPI.sichuan_login().then(
+            (res) => {
+                console.log('获取token');
+                console.log(res);
+                let exp = new Date();
+
+                /*毫秒，30分钟后过期*/
+                exp.setTime(exp.getTime() + (2 * 60 * 60 * 1000));
+                let expireTime = "; expires=" + exp.toUTCString();
+
+                document.cookie = "loginInfo=" + "true" + expireTime;
+                document.cookie = "token=" + res.data.token + expireTime;
+                document.cookie = "loginName=" + res.data.name + expireTime;
+            }
+        ).catch((err) => {
+            console.error(err);
+        })
+
+    };
 
     createWebS01 = () => {
         console.log('createWebS');
@@ -111,27 +140,47 @@ class MyWebSocket extends PureComponent {
         ws02.close(); //关闭TCP连接};
     };
 
-    createSocketJS = () => {
-        let socket = null;
-        let stompClient = null;
 
-        socket = new SockJS('http://172.16.136.30/boot/socket');
-
+    SockJS_connection() {
+        let websocketURL = "http://" + serverHost + ":8080/SiChuanMarket_SSM/my-websocket";
+        // 建立连接对象
+        let socket = new SockJS(websocketURL);
+        // 获取STOMP子协议的客户端对象
         stompClient = Stomp.over(socket);
+        // 定义客户端的认证信息,按需求配置
+        let headers = {
+            Authorization: pubFuncLib.getCookie('token'),
+        };
+        console.log(headers);
+        // 向服务器发起websocket连接
+        stompClient.connect(headers, () => {
+            stompClient.subscribe('/topic/send', (msg) => { // 订阅服务端提供的某个topic
+                console.log('广播成功-send');
+                console.log(msg);  // msg.body存放的是服务端发送给我们的信息
+            }, headers);
 
-        stompClient.connect({}, function (frame) {
+            stompClient.subscribe('/topic/callback', (msg) => { // 订阅服务端提供的某个topic
+                console.log('广播成功-callback');
+                console.log(msg);  // msg.body存放的是服务端发送给我们的信息
+            }, headers);
 
-            console.log('Connected: ' + frame);
 
-            stompClient.subscribe('/chatroom', data => {
-                console.log(data);
-            });
-
+            stompClient.send("/app/send",
+                headers,
+                JSON.stringify({sender: '', chatType: 'JOIN'}),
+            )   //用户加入接口
+        }, (err) => {
+            // 连接发生错误时的处理函数
+            console.log('失败');
+            console.log(err);
         });
-        /*  stompClient.send("/app/test", {}, JSON.stringify({
-              'message': '2663_jiangfan'
-          }));*/
-    };
+    };   //连接 后台
+
+    SockJS_disconnect() {
+        if (stompClient) {
+            stompClient.disconnect();
+        }
+    };  // 断开连接
 
     render() {
         return (
@@ -150,6 +199,8 @@ class MyWebSocket extends PureComponent {
                             : <Button type="danger" style={{marginLeft: '10px'}}
                                       onClick={this.closeWebS02}>关闭webSocket02</Button>
                     }
+                    <Button type="primary" style={{marginLeft: '10px'}}
+                            onClick={this.SockJS_connection}>创建_SockJS_01</Button>
                 </div>
             </div>
         );
